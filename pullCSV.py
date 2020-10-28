@@ -7,17 +7,14 @@ from io import StringIO
 
 url="https://spotifycharts.com/regional/sv/daily/latest/download"
 response=requests.get(url)
-# SpicyArray=str(response.content).split(chr(92)+"n")
-# reader= csv.reader(SpicyArray,delimiter=',')
-# for row in reader:
-#     print(row)
-#print(f"The length is {len(SpicyArray)}")
-
-reader= csv.reader(str(response.content).split(chr(92)+"n"),delimiter=",")
+Cleaned_Response=str(response.content).split(chr(92)+"n")
+Cleaned_Response.pop(202)
+Cleaned_Response.pop(0)
+reader= csv.reader(Cleaned_Response,delimiter=",")
 
 outPath="Output/test.csv"
 
-with open(outPath, 'w') as csvfile:
+with open(outPath, 'w', newline='') as csvfile:
     # Initialize csv.writer
     csvwriter = csv.writer(csvfile, delimiter=',')
 
