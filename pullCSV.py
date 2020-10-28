@@ -5,9 +5,11 @@ from pprint import pprint
 import urllib.request
 from io import StringIO
 
+#https://spotifycharts.com/regional/global/daily/latest
+
 url="https://spotifycharts.com/regional/sv/daily/latest/download"
-response=requests.get(url)
-Cleaned_Response=str(response.content).split(chr(92)+"n")
+CSVresponse=requests.get(url)
+Cleaned_Response=str(CSVresponse.content).split(chr(92)+"n")
 Cleaned_Response.pop(202)
 Cleaned_Response.pop(0)
 reader= csv.reader(Cleaned_Response,delimiter=",")
@@ -19,6 +21,27 @@ with open(outPath, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter=',')
 
     for row in reader:
-
-        csvwriter.writerow(row)
+        csvwriter.writerow(["Line"] + row)
         print(row)
+
+
+# #The goal is to get title, description and price from each product on https://scrapingclub.com/exercise/list_basic/
+# base_url="https://scrapingclub.com"
+
+# for page in range(1,8):
+#     url="https://scrapingclub.com/exercise/list_basic/?page="+str(page)
+#     response=requests.get(url)
+#     soup=BeautifulSoup(response.text, "lxml")
+#     #print(soup)
+#     sections=soup.find_all('div', class_='card')
+#     for section in sections:
+#         if str(section)[:str(section).find(">")+1] != "<div class="+chr(34)+"card"+chr(34)+">":
+#             continue
+#         Title=section.find('div',class_='card-body').find('a').text
+#         Price=section.find('h5').text
+#         print(Title,Price)
+#         Sub_url=section.find('a')['href']
+#         Sub_response=requests.get(base_url+Sub_url)
+#         Sub_soup=BeautifulSoup(Sub_response.text, "lxml")
+#         Description=Sub_soup.find('p', class_="card-text").text
+#         print(Description)
