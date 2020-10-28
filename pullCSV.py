@@ -5,9 +5,22 @@ from pprint import pprint
 import urllib.request
 from io import StringIO
 
-#https://spotifycharts.com/regional/global/daily/latest
+#The purpose of this code is to pull a list of possible regions for spotify charts.
+region_codes=[]
+region_names=[]
+Original_url="https://spotifycharts.com/regional/global/daily/latest"
+list_response=requests.get(Original_url)
+soup=BeautifulSoup(list_response.text, "lxml")
+#I can add to this later to change from daily or choose another date.
+dropdowns=soup.find_all('div', class_='responsive-select')
+regions=dropdowns[0].find_all('li')
+for region in regions:
+    region_codes.append(region['data-value'])
+    region_names.append(region.text)
 
-url="https://spotifycharts.com/regional/sv/daily/latest/download"
+
+
+"""url="https://spotifycharts.com/regional/sv/daily/latest/download"
 CSVresponse=requests.get(url)
 Cleaned_Response=str(CSVresponse.content).split(chr(92)+"n")
 Cleaned_Response.pop(202)
@@ -22,7 +35,14 @@ with open(outPath, 'w', newline='') as csvfile:
 
     for row in reader:
         csvwriter.writerow(["Line"] + row)
-        print(row)
+        print(row)"""
+
+
+
+
+
+
+
 
 
 # #The goal is to get title, description and price from each product on https://scrapingclub.com/exercise/list_basic/
