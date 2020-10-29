@@ -15,8 +15,11 @@ Joe has finished code to scrape spotify charts
 2. Determine happiness dataset.
 3. Create scatter plots for each metric vs country happiness
 
+Joe - Weekly 2019 every region
+
 ## Is there a correlation between any of the Spotify music metrics of songs popular in a country in 2019 (danceablity, acousticness, energy, explicit, liveness) and that country's Freedom to make life choices?
 
+Joe - Weekly 2019 every region
 
 ## How have the spotify music metrics changed over time?
 1. For each year aggregate the music metrics over all songs released that year.
@@ -30,5 +33,10 @@ Joe has finished code to scrape spotify charts
 2. guy from linkedin park
 3. Joos WRLD
 
+Joe - Daily Us for 2017
+
 ### How long do people care? -total streams in top 200 each day leading up and after death
 ### Does age factor into it?
+
+
+Joe make sure csvs are clean.
