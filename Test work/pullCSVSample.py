@@ -16,7 +16,7 @@ for region in regions:
     region_names.append(region.text)
 
 #Open CSV
-outPath="Output/test.csv"
+outPath="Test work/Output/test2.csv"
 with open(outPath, 'w', newline='') as csvfile:
     # Initialize csv.writer
     csvwriter = csv.writer(csvfile, delimiter=',')
@@ -35,4 +35,6 @@ with open(outPath, 'w', newline='') as csvfile:
         Cleaned_Response.pop(0)
         reader= csv.reader(Cleaned_Response,delimiter=",")
         for row in reader:
+            if row[0]=="    <head>":
+                break
             csvwriter.writerow([Current_Region] + row)
