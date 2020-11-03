@@ -1,170 +1,169 @@
-﻿NAME,ARTIST,AGE,DATE
-Mike Gaborno,Manic Hispanic,51,1/4/2017
-Johnny Dick,Fanny Adams,73,1/6/2017
-Sylvester Potts,The Contours,78,1/6/2017
-Eddie Kamae,Sons of Hawaii,89,1/7/2017
-Jerzy Kossela,Czerwone Gitary,74,1/7/2017
+﻿Artist,Name,Age ,Death
+Manic Hispanic,Mike Gaborno,51,1/4/2017
+Fanny Adams,Johnny Dick,73,1/6/2017
+The Contours,Sylvester Potts,78,1/6/2017
+Sons of Hawaii,Eddie Kamae,89,1/7/2017
+Czerwone Gitary,Jerzy Kossela,74,1/7/2017
 Peter Sarstedt,Peter Sarstedt,75,1/8/2017
-Tommy Allsup,Buddy Holly & The Crickets,85,1/11/2017
-Larry Steinbachek,Bronski Beat,56,1/12/2017
+Buddy Holly & The Crickets,Tommy Allsup,85,1/11/2017
+Bronski Beat,Larry Steinbachek,56,1/12/2017
 Meir Banai,Meir Banai,55,1/12/2017
-Muhammad Fachroni,Project Pop,44,1/13/2017
-Richie Ingui,Soul Survivors,70,1/13/2017
+Project Pop,Muhammad Fachroni,44,1/13/2017
+Soul Survivors,Richie Ingui,70,1/13/2017
 "Charles ""Bobo"" Shaw","Charles ""Bobo"" Shaw",69,1/16/2017
-Franz Jarnach,The Rattles,72,1/16/2017
+The Rattles,Franz Jarnach,72,1/16/2017
 Loalwa Braz,Loalwa Braz,63,1/19/2017
-Ronald “Bingo” Mundy,The Marcels,76,1/20/2017
+The Marcels,Ronald “Bingo” Mundy,76,1/20/2017
 Joey Powers,Joey Powers,82,1/20/2017
-Maggie Roche,The Roches,65,1/21/2017
-Jaki Liebezeit,Can,78,1/22/2017
-Pete Overend Watts,Mott the Hoople,69,1/22/2017
+The Roches,Maggie Roche,65,1/21/2017
+Can,Jaki Liebezeit,78,1/22/2017
+Mott the Hoople,Pete Overend Watts,69,1/22/2017
 Bobby Freeman,Bobby Freeman,76,1/23/2017
-Gil Ray,Game Theory,60,1/24/2017
-Björn Thelin,The Spotnicks,74,1/24/2017
-Butch Trucks,The Allman Brothers Band,69,1/24/2017
+Game Theory,Gil Ray,60,1/24/2017
+The Spotnicks,Björn Thelin,74,1/24/2017
+The Allman Brothers Band,Butch Trucks,69,1/24/2017
 Guitar Gable,Guitar Gable,79,1/28/2017
-Geoff Nicholls,Black Sabbath,68,1/28/2017
-Elkin Ramírez,Kraken,54,1/29/2017
-Deke Leonard,Man,72,1/31/2017
-John Wetton,Asia,67,1/31/2017
-Robert Dahlqvist,The Hellacopters,40,2/3/2017
-Steve Lang,April Wine,67,2/4/2017
+Black Sabbath,Geoff Nicholls,68,1/28/2017
+Kraken,Elkin Ramírez,54,1/29/2017
+Man,Deke Leonard,72,1/31/2017
+Asia,John Wetton,67,1/31/2017
+The Hellacopters,Robert Dahlqvist,40,2/3/2017
+April Wine,Steve Lang,67,2/4/2017
 Noel Simms,Noel Simms,82,2/4/2017
 David Axelrod,David Axelrod,83,2/5/2017
-Sonny Geraci,The Outsiders,69,2/5/2017
-It (Tony Särkkä),Abruptum,44,2/8/2017
-Rina Matsuno,Shiritsu Ebisu Chugaku,18,2/8/2017
-Tony Davis,The Spinners,86,2/10/2017
+The Outsiders,Sonny Geraci,69,2/5/2017
+Abruptum,It (Tony Särkkä),44,2/8/2017
+Shiritsu Ebisu Chugaku,Rina Matsuno,18,2/8/2017
+The Spinners,Tony Davis,86,2/10/2017
 Damian,Damian,52,2/12/2017
-Robert Fisher,Willard Grant Conspiracy,59,2/12/2017
+Willard Grant Conspiracy,Robert Fisher,59,2/12/2017
 Al Jarreau,Al Jarreau,76,2/12/2017
-Trish Doan,Kittie,31,2/13/2017
+Kittie,Trish Doan,31,2/13/2017
 Peter Skellern,Peter Skellern,69,2/17/2017
 Clyde Stubblefield,Clyde Stubblefield,73,2/18/2017
-Larry Coryell,The Eleventh House,73,2/19/2017
-Hiroshi Kamayatsu,The Spiders,78,3/1/2017
+The Eleventh House,Larry Coryell,73,2/19/2017
+The Spiders,Hiroshi Kamayatsu,78,3/1/2017
 Edi Fitzroy,Edi Fitzroy,62,3/4/2017
 Ritchie Adams,Ritchie Adams,78,3/6/2017
-Lars Diedricson,Snowstorm,55,3/6/2017
-Robbie Hoddinoff,Kingfish,62,3/6/2017
+Snowstorm,Lars Diedricson,55,3/6/2017
+Kingfish,Robbie Hoddinoff,62,3/6/2017
 Kalika Prasad Bhattacharya,Kalika Prasad Bhattacharya,56,3/7/2017
-Tony Lorenzo,Sons of Azrael,30,3/9/2017
-Joni Sledge,Sister Sledge,60,3/10/2017
-Evan Johns,The LeRoi Brothers,69,3/11/2017
-Joey Alves,Y&T,63,3/12/2017
-John Lever,The Chameleons,55,3/13/2017
+Sons of Azrael,Tony Lorenzo,30,3/9/2017
+Sister Sledge,Joni Sledge,60,3/10/2017
+The LeRoi Brothers,Evan Johns,69,3/11/2017
+Y&T,Joey Alves,63,3/12/2017
+The Chameleons,John Lever,55,3/13/2017
 James Cotton,James Cotton,81,3/16/2017
 Chuck Berry,Chuck Berry,90,3/18/2017
 Billy Bland,Billy Bland,84,3/22/2017
-Sib Hashian,Boston,67,3/22/2017
-Sven-Erik Magnusson,Sven-Ingvars,74,3/22/2017
+Boston,Sib Hashian,67,3/22/2017
+Sven-Ingvars,Sven-Erik Magnusson,74,3/22/2017
 Jimmy Dotson,Jimmy Dotson,83,3/26/2017
-Clem Curtis,The Foundations,76,3/27/2017
-Edward Grimes,Rachel's,43,3/27/2017
+The Foundations,Clem Curtis,76,3/27/2017
+Rachel's,Edward Grimes,43,3/27/2017
 Lonnie Brooks,Lonnie Brooks,83,4/1/2017
-Brenda Jones,The Jones Girls,62,4/2/2017
-David Peel,The Lower East Side Band,73,4/6/2017
+The Jones Girls,Brenda Jones,62,4/2/2017
+The Lower East Side Band,David Peel,73,4/6/2017
 Kim Plainfield,Kim Plainfield,63,4/8/2017
-Keni Richards,Autograph,60,4/8/2017
-Banner Thomas,Molly Hatchet,60,4/10/2017
-J. Geils,The J. Geils Band,71,4/11/2017
-Toby Smith,Jamiroquai,46,4/12/2017
-Mika Vainio,Pan Sonic,57,4/12/2017
-Matt Holt,Nothingface,39,4/15/2017
-Allan Holdsworth,Soft Machine,70,4/16/2017
-Pat Fitzpatrick,Aslan,60,4/19/2017
-Cuba Gooding Sr,The Main Ingredient,72,4/20/2017
+Autograph,Keni Richards,60,4/8/2017
+Molly Hatchet,Banner Thomas,60,4/10/2017
+The J. Geils Band,J. Geils,71,4/11/2017
+Jamiroquai,Toby Smith,46,4/12/2017
+Pan Sonic,Mika Vainio,57,4/12/2017
+Nothingface,Matt Holt,39,4/15/2017
+Soft Machine,Allan Holdsworth,70,4/16/2017
+Aslan,Pat Fitzpatrick,60,4/19/2017
+The Main Ingredient,Cuba Gooding Sr,72,4/20/2017
 Calep Emphrey Jr.,Calep Emphrey Jr.,67,4/25/2017
-Bruce Hampton,Col. Bruce Hampton and the Aquarium Rescue Unit,70,5/1/2017
-Kevin Garcia,Grandaddy,41,5/2/2017
-Saxa,The Beat,87,5/3/2017
+Col. Bruce Hampton and the Aquarium Rescue Unit,Bruce Hampton,70,5/1/2017
+Grandaddy,Kevin Garcia,41,5/2/2017
+The Beat,Saxa,87,5/3/2017
 Robert Miles,Robert Miles,47,5/9/2017
-Jimmy Copley,Manfred Mann's Earth Band,63,5/13/2017
-Chris Cornell,Soundgarden,52,5/17/2017
-Kevin Stantion,Mi-Sex,61,5/17/2017
+Manfred Mann's Earth Band,Jimmy Copley,63,5/13/2017
+Soundgarden,Chris Cornell,52,5/17/2017
+Mi-Sex,Kevin Stantion,61,5/17/2017
 Frankie Paul,Frankie Paul,51,5/18/2017
 Jimmy LaFave,Jimmy LaFave,61,5/21/2017
-Gregg Allman,The Allman Brothers Band,69,5/27/2017
-Aamir Zaki,Vital Signs,49,6/2/2017
+The Allman Brothers Band,Gregg Allman,69,5/27/2017
+Vital Signs,Aamir Zaki,49,6/2/2017
 Vin Garbutt,Vin Garbutt,69,6/6/2017
-Sandra Reemer,Sandra & Andres,66,6/6/2017
+Sandra & Andres,Sandra Reemer,66,6/6/2017
 Rosalie Sorrels,Rosalie Sorrels,83,6/11/2017
 Gunter Gabriel,Gunter Gabriel,75,6/22/2017
-Jimmy Nalls,Sea Level,66,6/22/2017
-Dave Rosser,The Afghan Whigs,50,6/27/2017
-Gary DeCarlo,Steam,75,6/28/2017
+Sea Level,Jimmy Nalls,66,6/22/2017
+The Afghan Whigs,Dave Rosser,50,6/27/2017
+Steam,Gary DeCarlo,75,6/28/2017
 Rudy Rotta,Rudy Rotta,66,7/3/2017
 John Blackwell,John Blackwell,43,7/4/2017
-"Melvyn ""Deacon"" Jones",Baby Huey & the Babysitters,73,7/6/2017
+Baby Huey & the Babysitters,"Melvyn ""Deacon"" Jones",73,7/6/2017
 Ray Phiri,Ray Phiri,70,7/12/2017
-Simon Holmes,The Hummingbirds,54,7/13/2017
-David Zablidowsky,Adrenaline Mob,38,7/14/2017
-Roland Cazimero,The Brothers Cazimero,66,7/16/2017
-Chester Bennington,Linkin Park,41,7/20/2017
-Kenny Shields,Streetheart,69,7/21/2017
-Bobby Taylor,Bobby Taylor & the Vancouvers,83,7/22/2017
+The Hummingbirds,Simon Holmes,54,7/13/2017
+Adrenaline Mob,David Zablidowsky,38,7/14/2017
+The Brothers Cazimero,Roland Cazimero,66,7/16/2017
+Linkin Park,Chester Bennington,41,7/20/2017
+Streetheart,Kenny Shields,69,7/21/2017
+Bobby Taylor & the Vancouvers,Bobby Taylor,83,7/22/2017
 Michael Johnson,Michael Johnson,72,7/25/2017
 Billy Joe Walker Jr.,Billy Joe Walker Jr.,65,7/25/2017
-Goldy McJohn,Steppenwolf,72,8/1/2017
+Steppenwolf,Goldy McJohn,72,8/1/2017
 Glen Campbell,Glen Campbell,81,8/8/2017
 Benard Ighner,Benard Ighner,72,8/14/2017
-Melissa Bell,Soul II Soul,53,8/28/2017
-Skip Prokop,Lighthouse,73,8/30/2017
-Walter Becker,Steely Dan,67,9/3/2017
-Dave Hlubek,Molly Hatchet,66,9/3/2017
-Earl Lindo,The Wailers,64,9/4/2017
-Holger Czukay,Can,79,9/5/2017
-Rick Stevens,Tower of Power,77,9/5/2017
-Troy Gentry,Montgomery Gentry,50,9/8/2017
-Michael Friedman,In association of The Civilians,41,9/9/2017
-Virgil Howe,Little Barrie,41,9/11/2017
-Will Youatt,Man,67,9/12/2017
-Jessi Zazu,Those Darlins,28,9/12/2017
-Grant Hart,Hüsker Dü,56,9/14/2017
+Soul II Soul,Melissa Bell,53,8/28/2017
+Lighthouse,Skip Prokop,73,8/30/2017
+Steely Dan,Walter Becker,67,9/3/2017
+Molly Hatchet,Dave Hlubek,66,9/3/2017
+The Wailers,Earl Lindo,64,9/4/2017
+Can,Holger Czukay,79,9/5/2017
+Tower of Power,Rick Stevens,77,9/5/2017
+Montgomery Gentry,Troy Gentry,50,9/8/2017
+In association of The Civilians,Michael Friedman,41,9/9/2017
+Little Barrie,Virgil Howe,41,9/11/2017
+Man,Will Youatt,67,9/12/2017
+Those Darlins,Jessi Zazu,28,9/12/2017
+Hüsker Dü,Grant Hart,56,9/14/2017
 Mark Selby,Mark Selby,56,9/18/2017
-Ammon Tharp,Bill Deal and the Rhondels,75,9/22/2017
+Bill Deal and the Rhondels,Ammon Tharp,75,9/22/2017
 Charles Bradley,Charles Bradley,68,9/23/2017
 CeDell Davis,CeDell Davis,91,9/27/2017
-Tom Petty,Tom Petty and the Heartbreakers,66,10/2/2017
 Tom Petty,Tom Petty,66,10/2/2017
-Jimmy Beaumont,The Skyliners,76,10/7/2017
+The Skyliners,Jimmy Beaumont,76,10/7/2017
 Grady Tate,Grady Tate,85,10/8/2017
-Iain Shedden,The Saints,60,10/16/2017
-Gord Downie,The Tragically Hip,53,10/17/2017
-Martin Eric Ain,Celtic Frost,50,10/21/2017
-Scott Putesky,Marilyn Manson,49,10/22/2017
+The Saints,Iain Shedden,60,10/16/2017
+The Tragically Hip,Gord Downie,53,10/17/2017
+Celtic Frost,Martin Eric Ain,50,10/21/2017
+Marilyn Manson,Scott Putesky,49,10/22/2017
 Al Hurricane,Al Hurricane,81,10/22/2017
-George Young,The Easybeats,70,10/22/2017
+The Easybeats,George Young,70,10/22/2017
 Fats Domino,Fats Domino,89,10/24/2017
 Dick Noel,Dick Noel,90,10/27/2017
 Billy Mize,Billy Mize,88,10/28/2017
 Katie Lee,Katie Lee,98,11/1/2017
 Robert Knight,Robert Knight,72,11/5/2017
-Pentti Glan,Alice Cooper,71,11/7/2017
-Chuck Mosley,Faith No More,57,11/9/2017
-Bonnie Flower,Wendy and Bonnie,63,11/15/2017
+Alice Cooper,Pentti Glan,71,11/7/2017
+Faith No More,Chuck Mosley,57,11/9/2017
+Wendy and Bonnie,Bonnie Flower,63,11/15/2017
 Lil Peep,Lil Peep,21,11/17/2017
-Malcolm Young,AC/DC,64,11/18/2017
-"Warren ""Pete"" Moore",The Miracles,78,11/19/2017
+AC/DC,Malcolm Young,64,11/18/2017
+The Miracles,"Warren ""Pete"" Moore",78,11/19/2017
 Della Reese,Della Reese,86,11/19/2017
-David Cassidy,The Partridge Family,67,11/21/2017
+The Partridge Family,David Cassidy,67,11/21/2017
 Wayne Cochran,Wayne Cochran,78,11/21/2017
 Tommy Keene,Tommy Keene,59,11/22/2017
-Mitch Margo,The Tokens,70,11/24/2017
-Robert Popwell,The Young Rascals,66,11/27/2017
+The Tokens,Mitch Margo,70,11/24/2017
+The Young Rascals,Robert Popwell,66,11/27/2017
 Robert Walker,Robert Walker,80,11/29/2017
-Zé Pedro,Xutos & Pontapés,61,11/30/2017
+Xutos & Pontapés,Zé Pedro,61,11/30/2017
 Norihiko Hashida,Norihiko Hashida,72,12/2/2017
 Johnny Hallyday,Johnny Hallyday,74,12/6/2017
-Sir Christus,Negative,39,12/7/2017
+Negative,Sir Christus,39,12/7/2017
 Sunny Murray,Sunny Murray,81,12/8/2017
-Leon Rhodes,Ernest Tubb and His Texas Troubadours,85,12/9/2017
-Keith Chegwin,Brown Sauce,60,12/11/2017
+Ernest Tubb and His Texas Troubadours,Leon Rhodes,85,12/9/2017
+Brown Sauce,Keith Chegwin,60,12/11/2017
 Manno Charlemagne,Manno Charlemagne,69,12/10/2017
-Pat DiNizio,The Smithereens,62,12/12/2017
-Dave Christenson,Stabilizers,54,12/15/2017
-Warrel Dane,Sanctuary,56,12/13/2017
+The Smithereens,Pat DiNizio,62,12/12/2017
+Stabilizers,Dave Christenson,54,12/15/2017
+Sanctuary,Warrel Dane,56,12/13/2017
 Michael Prophet,Michael Prophet,60,12/16/2017
 Richard Dobson,Richard Dobson,75,12/16/2017
 Kevin Mahogany,Kevin Mahogany,59,12/17/2017
-Kim Jong-hyun,Shinee,27,12/18/2017
+Shinee,Kim Jong-hyun,27,12/18/2017
