@@ -33,19 +33,19 @@ The goal of this project is to analyze the data available from Spotify to answer
 
 * Use the Audio Features from here [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks).
 * Determine the appropriate measure of central tendency for each Audio Feature and give evidence.
-* Show plots displauing the change in each Audio Feature over time.
+* Show plots displaying the change in each Audio Feature over time.
 
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
 
 * Scrape the 2017 daily charts in the US from [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) and use the deaths of these [artists](https://en.wikipedia.org/wiki/List_of_2017_deaths_in_rock_and_roll) to cross reference.
-* Narrow the dataframe to artists that hit the charts in 2017 and died in 2017.
+* Narrow the data frame to artists that hit the charts in 2017 and died in 2017.
 * Compare the streams before death, on the day of death, and after death using line plots.
 
 # How did we do it? (Spoilers)
 
 ## Scraping the data
 * The work for this is done in [Daily 2017 US Charts](2017-daily-us-charts.ipynb) and [Weekly 2019 Charts by Region](2019-weekly-regional-charts.ipynb).
-* This uses the requests library and Beautiful Soup to grab the html from [Spotify Charts](https://spotifycharts.com/regional) and converts the data into a large csv. We then open the csv as a dataframe to analyze.
+* This uses the requests library and Beautiful Soup to grab the html from [Spotify Charts](https://spotifycharts.com/regional) and converts the data into a large csv. We then open the csv as a data frame to analyze.
 
 ## How have Audio Features changed over time?
 
@@ -59,4 +59,4 @@ The goal of this project is to analyze the data available from Spotify to answer
 
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
 * The analysis for this question is in the [2017 Artist Deaths](2017DailyUSDF.ipynb) notebook.
-* @Adam - please write up some findings in this bullet format - 4 or 5 bullets to sumarize the whole Q
+* @Adam - please write up some findings in this bullet format - 4 or 5 bullets to summarize the whole Q
