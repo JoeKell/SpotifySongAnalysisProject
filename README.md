@@ -60,3 +60,5 @@ The goal of this project is to analyze the data available from Spotify to answer
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
 * The analysis for this question is in the [2017 Artist Deaths](2017DailyUSDF.ipynb) notebook.
 * @Adam - please write up some findings in this bullet format - 4 or 5 bullets to summarize the whole Q
+
+![Artist Deaths](Resources/Images/Artist%20Deaths.png)
