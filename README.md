@@ -63,7 +63,7 @@ The goal of this project is to analyze the data available from Spotify to answer
 ![Artist Deaths](Resources/Images/FeatureByHappiness.png)
 
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
-* The analysis for this question is in the [2017 Artist Deaths](2017DailyUSDF.ipynb) notebook.
+* The analysis for this question is in the [2017 Artist Deaths](2017ArtistDeathAnalysis.ipynb) notebook.
 * The deaths of Chester Bennington (Linkin Park) and Tom Petty had the most significant initial effect of on Spotify streams by a wide margin. Linkin Park and Tom Petty accumulated 10,647,809 and 9,080,227 streams, respectively, in the day following their deaths and were responsible for 14% and 11.5% of total songs on the chart those days. However, Linkin Park had a much more prolonged increase in streams, maintaining at least one song on the streaming chart for three weeks, while Tom Petty's final appearance came one week after his death.
 * Overall, the data supports our hypothesis that the number of Spotify streams would dramatically increase following an artist's death. It was interesting, however to observe the variance in how long deceased artists maintained a position within the top 200 daily charts.
 * Spotify only lists the number of streams for songs in the top 200, thus the total number of songs reflect only those particular tracks. It would be advantageous to be able to gather data from the entirety of an artists streams, which would also provide an even more telling look at their pre-death numbers and exactly how long after their deaths an increase was observed.
