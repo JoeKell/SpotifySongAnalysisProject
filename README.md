@@ -52,8 +52,8 @@ The goal of this project is to analyze the data available from Spotify to answer
 * The analysis for this question is in the [Features Over Time](metrics_over_time.ipynb) notebook.
 
 * Valence – The average valence was the lowest in 1946, meaning this was the saddest year of music in our dataset. This is likely due to WWII.
-*Acousticness – We noticed a general drop is acousticness over the decades, which makes sense considering the rise of digital music making
-*Popularity – Considering “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are”, this analysis confirmed our assumption that the more recent a song was made, the more popular it would be.
+* Acousticness – We noticed a general drop is acousticness over the decades, which makes sense considering the rise of digital music making
+* Popularity – Considering “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are”, this analysis confirmed our assumption that the more recent a song was made, the more popular it would be.
 
 ## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score, Freedom to Make Life Choices Score, GDP per Capita?
 
