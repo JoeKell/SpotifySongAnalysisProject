@@ -8,6 +8,8 @@ The goal of this project is to analyze the data available from Spotify to answer
 3. [World Metrics](https://www.kaggle.com/unsdsn/world-happiness)
 4. [2017 Musician Deaths](https://en.wikipedia.org/wiki/List_of_2017_deaths_in_rock_and_roll)
 
+Our presentation slides can be found [here](Spotify%20Music%20Analysis.pdf).
+
 # Questions
 
 ## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score?
@@ -55,12 +57,14 @@ The goal of this project is to analyze the data available from Spotify to answer
 * Acousticness – We noticed a general drop is acousticness over the decades, which makes sense considering the rise of digital music making
 * Popularity – Considering “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are”, this analysis confirmed our assumption that the more recent a song was made, the more popular it would be.
 
+![Artist Features over Time](Resources/Images/AudioFeaturesOverTime.png)
+
 ## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score, Freedom to Make Life Choices Score, GDP per Capita?
 
 * The analysis for this question is in the [Audio Features vs Country Metrics](CountryHappinessAnalysis.ipynb) notebook.
-* @Connor - please write up some findings in this bullet format - 1 or 2 bullets for each metric  
+* We found that there is no strong correlation between the audio features of songs streamed in a country and that country's happiness score, freedom to make life choices score, or GDP. The strongest correlation that we observed was between GDP per capita and song duration. The relationship wasn't that strong (r value of -0.59) but it was the strongest we found. Below are the plots of audio features compared to a countries happiness score.
 
-![Artist Deaths](Resources/Images/FeatureByHappiness.png)
+![Audio Features by Happiness](Resources/Images/FeatureByHappiness.png)
 
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
 * The analysis for this question is in the [2017 Artist Deaths](2017ArtistDeathAnalysis.ipynb) notebook.
