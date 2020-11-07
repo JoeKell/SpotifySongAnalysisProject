@@ -55,7 +55,9 @@ The goal of this project is to analyze the data available from Spotify to answer
 ## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score, Freedom to Make Life Choices Score, GDP per Capita?
 
 * The analysis for this question is in the [Audio Features vs Country Metrics](CountryHappinessAnalysis.ipynb) notebook.
-* @Connor - please write up some findings in this bullet format - 1 or 2 bullets for each metric
+* @Connor - please write up some findings in this bullet format - 1 or 2 bullets for each metric  
+
+![Artist Deaths](Resources/Images/FeatureByHappiness.png)
 
 ## In 2017, What is the Impact on Streams of Artists following their Deaths?
 * The analysis for this question is in the [2017 Artist Deaths](2017DailyUSDF.ipynb) notebook.
