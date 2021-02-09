@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+[View my GitHub Portfolio](https://joekell.github.io/)
 
-You can use the [editor on GitHub](https://github.com/JoeKell/SpotifySongAnalysisProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# SpotifySongAnalysisProject
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Summary
+The goal of this project is to analyze the data available from Spotify to answer questions about Spotify Audio Features by song year, correlation between Audio Features and country metrics, and the Spotify Audio Features by song year. Technologies to be used are Python, Jupyter Notebooks, Pandas, Requests, and Matplotlib. Optionally, the Spotify API can be used but will match the Kaggle Data. For this we used the following data sources:
 
-### Markdown
+1. [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)
+2. [Spotify Charts](https://spotifycharts.com/regional)
+3. [World Metrics](https://www.kaggle.com/unsdsn/world-happiness)
+4. [2017 Musician Deaths](https://en.wikipedia.org/wiki/List_of_2017_deaths_in_rock_and_roll)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Our presentation slides can be found [here](Spotify%20Music%20Analysis.pdf).
 
-```markdown
-Syntax highlighted code block
+# Questions
 
-# Header 1
-## Header 2
-### Header 3
+## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score?
 
-- Bulleted
-- List
+* Use the Happiness Score from [World Metrics](https://www.kaggle.com/unsdsn/world-happiness), scrape the 2019 weekly data for each region from [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks), and use the Audio Features from here [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks).
+* Merge the 3 data sets and aggregate each Audio Feature by the appropriate measure of central tendency.
+* Show plots with regression lines and give the r value for each Audio Feature by Country Happiness Score.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## In 2019, do Audio Features of charting songs correlate to a country's Freedom to Make Life Choices Score?
 
-[Link](url) and ![Image](src)
-```
+* Use the Freedom to Make Life Choices Score from [World Metrics](https://www.kaggle.com/unsdsn/world-happiness), scrape the 2019 weekly data for each region from [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks), and use the Audio Features from here [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks).
+* Merge the 3 data sets and aggregate each Audio Feature by the appropriate measure of central tendency.
+* Show plots with regression lines and give the r value for each Audio Feature by Freedom to Make Life Choices Score.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## In 2019, do Audio Features of charting songs correlate to a country's GDP per Capita?
 
-### Jekyll Themes
+* Use the GDP per Capita from [World Metrics](https://www.kaggle.com/unsdsn/world-happiness), scrape the 2019 weekly data for each region from [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks), and use the Audio Features from here [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks).
+* Merge the 3 data sets and aggregate each Audio Feature by the appropriate measure of central tendency.
+* Show plots with regression lines and give the r value for each Audio Feature by GDP per Capita.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JoeKell/SpotifySongAnalysisProject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## How have Audio Features changed over time?
 
-### Support or Contact
+* Use the Audio Features from here [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks).
+* Determine the appropriate measure of central tendency for each Audio Feature and give evidence.
+* Show plots displaying the change in each Audio Feature over time.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## In 2017, What is the Impact on Streams of Artists following their Deaths?
+
+* Scrape the 2017 daily charts in the US from [Spotify Audio Features](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) and use the deaths of these [artists](https://en.wikipedia.org/wiki/List_of_2017_deaths_in_rock_and_roll) to cross reference.
+* Narrow the data frame to artists that hit the charts in 2017 and died in 2017.
+* Compare the streams before death, on the day of death, and after death using line plots.
+
+# How did we do it? (Spoilers)
+
+## Scraping the data
+* The work for this is done in [Daily 2017 US Charts](2017-daily-us-charts.ipynb) and [Weekly 2019 Charts by Region](2019-weekly-regional-charts.ipynb).
+* This uses the requests library and Beautiful Soup to grab the html from [Spotify Charts](https://spotifycharts.com/regional) and converts the data into a large csv. We then open the csv as a data frame to analyze.
+
+## How have Audio Features changed over time?
+
+* The analysis for this question is in the [Features Over Time](metrics_over_time.ipynb) notebook.
+
+* Valence – The average valence was the lowest in 1946, meaning this was the saddest year of music in our dataset. This is likely due to WWII.
+* Acousticness – We noticed a general drop is acousticness over the decades, which makes sense considering the rise of digital music making
+* Popularity – Considering “The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are”, this analysis confirmed our assumption that the more recent a song was made, the more popular it would be.
+
+![Artist Features over Time](Resources/Images/AudioFeaturesOverTime.png)
+
+## In 2019, do Audio Features of charting songs correlate to a country's Happiness Score, Freedom to Make Life Choices Score, GDP per Capita?
+
+* The analysis for this question is in the [Audio Features vs Country Metrics](CountryHappinessAnalysis.ipynb) notebook.
+* We found that there is no strong correlation between the audio features of songs streamed in a country and that country's happiness score, freedom to make life choices score, or GDP. The strongest correlation that we observed was between GDP per capita and song duration. The relationship wasn't that strong (r value of -0.59) but it was the strongest we found. Below are the plots of audio features compared to a countries happiness score.
+
+![Audio Features by Happiness](Resources/Images/FeatureByHappiness.png)
+
+## In 2017, What is the Impact on Streams of Artists following their Deaths?
+* The analysis for this question is in the [2017 Artist Deaths](2017ArtistDeathAnalysis.ipynb) notebook.
+* The deaths of Chester Bennington (Linkin Park) and Tom Petty had the most significant initial effect of on Spotify streams by a wide margin. Linkin Park and Tom Petty accumulated 10,647,809 and 9,080,227 streams, respectively, in the day following their deaths and were responsible for 14% and 11.5% of total songs on the chart those days. However, Linkin Park had a much more prolonged increase in streams, maintaining at least one song on the streaming chart for three weeks, while Tom Petty's final appearance came one week after his death.
+* Overall, the data supports our hypothesis that the number of Spotify streams would dramatically increase following an artist's death. It was interesting, however to observe the variance in how long deceased artists maintained a position within the top 200 daily charts.
+* Spotify only lists the number of streams for songs in the top 200, thus the total number of songs reflect only those particular tracks. It would be advantageous to be able to gather data from the entirety of an artists streams, which would also provide an even more telling look at their pre-death numbers and exactly how long after their deaths an increase was observed.
+* Two artist provided unanticipated data that raised an additional question to contemplate: What are some song trends during certain seasons or particular events. Chuck Berry had just one song on one day reach the chart following his death, however, he appeared 33 times in the holiday season with his song "Run Rudolph Run." Following the death of guitarist Malcolm Young, there were no appearances for AC/DC, but they made the charts on New Years Day with "You Shook Me All Night Long" and on Halloween with "Highway to Hell".
+
+![Artist Deaths](Resources/Images/Artist%20Deaths.png)
